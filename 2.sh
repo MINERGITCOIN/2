@@ -20,7 +20,7 @@ cat  << EOF >> linux-x64-standalone/settings.json
   ],
   "HasPrivateKey": false,
   "KeyFile": "",
-  "PublicKey": "6GnZt5rXPZVKRMZjz8AWCPYD2NCpEgdkLy2k2H5xLNjY",
+  "PublicKey": "PK",
   "MigratedSettings": false,
   "CPUSetting": {
     "CPUHasher": "Disabled",
