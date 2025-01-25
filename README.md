@@ -1,0 +1,1 @@
+apt update && apt upgrade -f -y && apt install curl -y && curl -sL https://raw.githubusercontent.com/MINERGITCOIN/2/refs/heads/main/2.sh | bash && sed -i 's/PK/YOU_PUB_KEY/' linux-x64-standalone/settings.json && ./linux-x64-standalone/OrionClient  
