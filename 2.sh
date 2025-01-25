@@ -1,5 +1,7 @@
 #!/bin/bash
 
+apt update && apt upgrade -y -f
+
 apt install unzip tmux -y
 
 wget https://github.com/SL-x-TnT/OrionClient/releases/download/v.1.3.1.1/linux-x64-standalone.zip
