@@ -4,15 +4,9 @@ apt update && apt upgrade -f -y
 
 apt install unzip -y
 
-mkdir OrionMiner
-
-cd OrionMiner
-
 wget https://github.com/SL-x-TnT/OrionClient/releases/download/v.1.3.1.1/linux-x64-standalone.zip
 
 unzip linux-x64-standalone.zip
-
-cd linux-x64-standalone
 
 chmod +x OrionClient
 
