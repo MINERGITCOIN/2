@@ -8,11 +8,11 @@ wget https://github.com/SL-x-TnT/OrionClient/releases/download/v.1.3.1.1/linux-x
 
 unzip linux-x64-standalone.zip
 
-chmod +x OrionClient
+chmod +x linux-x64-standalone/OrionClient
 
-echo > settings.json
+echo > linux-x64-standalone/settings.json
 
-cat  << EOF >> settings.json
+cat  << EOF >> linux-x64-standalone/settings.json
 {
   "Pool": "Excalivator Pool",
   "GPUDevices": [
